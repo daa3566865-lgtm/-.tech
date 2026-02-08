@@ -1,0 +1,237 @@
+[
+  {
+    "id": "1",
+    "title": "Айдахо",
+    "price": 1050000,
+    "area": 38,
+    "floors": 1,
+    "image": "https://russip.ru/sites/default/files/styles/medium/public/projects/aydaho-1.jpg?itok=XYZ",
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "5.63 x 6.88",
+    "features": [
+      "Кухня-гостиная",
+      "Терраса"
+    ],
+    "description": "Компактный и уютный дом для небольшой семьи. Идеален для дачного отдыха или постоянного проживания.",
+    "images": [
+      "https://russip.ru/sites/default/files/styles/large/public/projects/aydaho-1.jpg",
+      "https://russip.ru/sites/default/files/styles/large/public/projects/aydaho-2.jpg"
+    ],
+    "purchaseOptions": [
+      {
+        "id": "opt-1",
+        "name": "Домокомплект",
+        "price": 1050000,
+        "term": "от 15 дней",
+        "sections": [
+          {
+            "title": "Стены",
+            "items": [
+              "СИП-панели 174 мм (OSB-3 Калевала 12 мм, ППС-16Ф)",
+              "Пиломатериал сухой строганый, антисептированный"
+            ]
+          },
+          {
+            "title": "Фундамент",
+            "items": [
+              "Свайно-винтовой фундамент",
+              "Диаметр сваи 108 мм, длина 2500 мм",
+              "Оголовок 200х200 мм"
+            ]
+          },
+          {
+            "title": "Крыша",
+            "items": [
+              "Стропильная система 50х150 мм",
+              "Металлочерепица 0.45 мм",
+              "Гидроизоляция Изоспан А"
+            ]
+          },
+          {
+            "title": "Окна и двери",
+            "items": [
+              "Окна ПВХ Rehau 60 мм, двухкамерный стеклопакет",
+              "Входная дверь металлическая (Россия)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "opt-2",
+        "name": "Теплый контур",
+        "price": 1550000,
+        "term": "от 30 дней",
+        "sections": [
+          {
+            "title": "Стены + Фасад",
+            "items": [
+              "Все из комплектации Домокомплект",
+              "Отделка фасада: Сайдинг Grand Line",
+              "Водосточная система"
+            ]
+          },
+          {
+            "title": "Инженерия",
+            "items": [
+              "Разводка электрики (ВВГнг-LS)",
+              "Разводка водоснабжения и канализации",
+              "Вентиляция (естественная)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Оптима",
+    "price": 2500000,
+    "area": 85,
+    "floors": 2,
+    "image": "https://russip.ru/sites/default/files/styles/medium/public/projects/optima-1.jpg?itok=ABC",
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "dimensions": "8.0 x 7.5",
+    "features": [
+      "Гараж",
+      "Балкон",
+      "Мансарда"
+    ],
+    "description": "Оптимальный выбор для семьи среднего размера. Просторная планировка и удобное зонирование.",
+    "images": []
+  },
+  {
+    "id": "3",
+    "title": "Гранд",
+    "price": 4200000,
+    "area": 150,
+    "floors": 2,
+    "image": "https://russip.ru/sites/default/files/styles/medium/public/projects/grand-1.jpg?itok=DEF",
+    "rooms": 6,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "dimensions": "10.0 x 9.5",
+    "features": [
+      "Терраса",
+      "Гараж",
+      "Кухня-гостиная"
+    ],
+    "description": "Просторный дом с премиальной планировкой. Всё, что нужно для комфортной жизни большой семьи.",
+    "images": []
+  },
+  {
+    "id": "1770367867883",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388899388",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388901196",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388903044",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388904140",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388904760",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  },
+  {
+    "id": "1770388905416",
+    "title": "Новый проект",
+    "price": 0,
+    "area": 0,
+    "floors": 1,
+    "image": "",
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "dimensions": "0 x 0",
+    "features": [],
+    "description": "Описание...",
+    "images": [],
+    "purchaseOptions": []
+  }
+]

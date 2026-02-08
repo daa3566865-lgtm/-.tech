@@ -1,0 +1,37 @@
+[
+  {
+    "id": "projects",
+    "label": "Проекты",
+    "href": "/",
+    "order": 1,
+    "type": "dropdown"
+  },
+  {
+    "id": "promotions",
+    "label": "Акции",
+    "href": "/promotions",
+    "order": 2,
+    "type": "link"
+  },
+  {
+    "id": "technologies",
+    "label": "Технологии",
+    "href": "/technologies",
+    "order": 3,
+    "type": "link"
+  },
+  {
+    "id": "booking",
+    "label": "Бронирование",
+    "href": "/booking",
+    "order": 4,
+    "type": "link"
+  },
+  {
+    "id": "contacts",
+    "label": "Контакты",
+    "href": "/contacts",
+    "order": 5,
+    "type": "link"
+  }
+]

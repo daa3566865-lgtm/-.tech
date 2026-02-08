@@ -1,0 +1,36 @@
+{
+  "siteName": "ПРОСИП",
+  "phone": "+7 (923) 777-26-55",
+  "email": "info@prosip.ru",
+  "address": "г. Москва, ул. Примерная, д. 10, оф. 205",
+  "socials": [
+    {
+      "id": "telegram",
+      "icon": "send",
+      "href": "https://t.me/username"
+    },
+    {
+      "id": "whatsapp",
+      "icon": "message-circle",
+      "href": "https://wa.me/79237772655"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "Проекты",
+      "href": "/"
+    },
+    {
+      "label": "Технологии",
+      "href": "/technologies"
+    },
+    {
+      "label": "Бронирование",
+      "href": "/booking"
+    },
+    {
+      "label": "Контакты",
+      "href": "/contacts"
+    }
+  ]
+}

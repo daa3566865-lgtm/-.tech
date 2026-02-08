@@ -1,0 +1,85 @@
+[
+    {
+        "slug": "technologies",
+        "title": "Технологии СИП-строительства",
+        "content": "",
+        "blocks": [
+            {
+                "id": "tech-1",
+                "type": "text_image",
+                "title": "Энергоэффективность",
+                "content": "<p>Дома из СИП-панелей обладают уникальными теплоизоляционными свойствами. Стена из СИП толщиной 174 мм по теплосопротивлению эквивалентна кирпичной стене толщиной 2.5 метра. Это позволяет существенно экономить на отоплении зимой и кондиционировании летом.</p>",
+                "imagePosition": "right"
+            },
+            {
+                "id": "tech-2",
+                "type": "text_image",
+                "title": "Прочность и Надежность",
+                "content": "<p>Конструкция из СИП-панелей выдерживает вертикальную нагрузку до 10 тонн на одну панель и поперечную нагрузку до 2 тонн на 1 кв.м. Наши дома уверенно противостоят ветровым и снеговым нагрузкам.</p>",
+                "imagePosition": "left"
+            },
+            {
+                "id": "tech-3",
+                "type": "features",
+                "title": "Преимущества",
+                "items": [
+                    "В 6 раз теплее кирпича",
+                    "Быстрая сборка (2-4 недели)",
+                    "Экологичные материалы",
+                    "Идеально ровные стены"
+                ]
+            }
+        ],
+        "images": []
+    },
+    {
+        "slug": "booking",
+        "title": "Бронирование",
+        "content": "<p class='text-center text-muted-foreground mb-8'>Ознакомьтесь с реальными фотографиями построенных нами домов. Мы гордимся каждым проектом.</p>",
+        "blocks": [
+            {
+                "id": "port-1",
+                "type": "text",
+                "title": "",
+                "content": "<p class='text-center text-muted-foreground mb-8'>Ознакомьтесь с реальными фотографиями построенных нами домов. Мы гордимся каждым проектом.</p>"
+            }
+        ],
+        "images": []
+    },
+    {
+        "slug": "contacts",
+        "title": "Контакты",
+        "content": "",
+        "blocks": [
+            {
+                "id": "contacts-1",
+                "type": "text",
+                "title": "",
+                "content": "<div class='grid md:grid-cols-2 gap-8'><div class='space-y-6'><p class='text-lg'>Свяжитесь с нами любым удобным способом.</p><div><h3 class='font-bold'>Телефон</h3><p class='text-lg'>+7 (923) 777-26-55</p></div><div><h3 class='font-bold'>Email</h3><p class='text-lg'>info@prosip.ru</p></div><div><h3 class='font-bold'>Офис</h3><p class='text-lg'>г. Москва, ул. Примерная, д. 10</p></div></div><div class='bg-muted rounded-xl min-h-[300px] flex items-center justify-center'>Карта</div></div>"
+            }
+        ],
+        "images": []
+    },
+    {
+        "slug": "promotions",
+        "title": "Акции и Спецпредложения",
+        "content": "",
+        "blocks": [
+            {
+                "id": "promo-1",
+                "type": "text_image",
+                "title": "Проект в подарок!",
+                "content": "<p>При заказе строительства дома до конца месяца - индивидуальное проектирование бесплатно.</p>",
+                "imagePosition": "left"
+            },
+            {
+                "id": "promo-2",
+                "type": "text_image",
+                "title": "Скидка на монтаж",
+                "content": "<p>Закажите домокомплект с монтажом и получите скидку 10% на работы.</p>",
+                "imagePosition": "right"
+            }
+        ],
+        "images": []
+    }
+]
