@@ -104,20 +104,7 @@ export default function Header() {
                                                 </div>
                                             </Link>
 
-                                            <div className="col-span-3 pt-6 border-t flex justify-between items-center text-muted-foreground normal-case">
-                                                <Link href="#" className="flex items-center gap-3 hover:text-primary transition-colors p-2 rounded hover:bg-muted/50 font-medium">
-                                                    <div className="bg-primary/10 p-2 rounded-full text-primary"><Hammer className="w-5 h-5" /></div>
-                                                    Услуги
-                                                </Link>
-                                                <Link href="/technologies" className="flex items-center gap-3 hover:text-primary transition-colors p-2 rounded hover:bg-muted/50 font-medium">
-                                                    <div className="bg-primary/10 p-2 rounded-full text-primary"><Settings className="w-5 h-5" /></div>
-                                                    Технологии
-                                                </Link>
-                                                <Link href="/portfolio" className="flex items-center gap-3 hover:text-primary transition-colors p-2 rounded hover:bg-muted/50 font-medium">
-                                                    <div className="bg-primary/10 p-2 rounded-full text-primary"><CheckSquare className="w-5 h-5" /></div>
-                                                    Наши работы
-                                                </Link>
-                                            </div>
+
                                         </div>
                                     </div>
                                 );
