@@ -8,6 +8,7 @@ import CallbackModal from "./CallbackModal";
 
 export default function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [menuItems, setMenuItems] = useState<any[]>([]);
 
     useEffect(() => {
@@ -38,8 +39,8 @@ export default function Header() {
                     <Link href="/" className="flex items-center transition-opacity hover:opacity-90 shrink-0 h-full">
                         <div className="relative w-[320px] h-full">
                             <Image
-                                src="/prosip_logo_new.jpg"
-                                alt="PROSIP"
+                                src="/svetliy_logo_v5.jpg"
+                                alt="СВЕТЛЫЙ"
                                 fill
                                 className="object-contain object-left"
                                 priority
@@ -133,11 +134,47 @@ export default function Header() {
                     </div>
 
                     {/* Mobile Menu Toggle */}
-                    <button className="xl:hidden p-2">
+                    <button
+                        className="xl:hidden p-2"
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    >
                         <Menu className="w-6 h-6" />
                     </button>
                 </div>
             </header>
+
+            {/* Mobile Menu Overlay */}
+            {isMobileMenuOpen && (
+                <div className="fixed inset-0 z-40 bg-background pt-28 px-4 pb-8 overflow-y-auto border-t xl:hidden">
+                    <nav className="flex flex-col gap-4 text-lg font-bold uppercase tracking-wide">
+                        {displayMenu.map((item) => (
+                            <Link
+                                key={item.id}
+                                href={item.href}
+                                className="py-2 border-b border-border/50 hover:text-primary transition-colors"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                                {item.label}
+                            </Link>
+                        ))}
+                    </nav>
+                    <div className="mt-8 flex flex-col gap-4">
+                        <a href="tel:+79237772655" className="flex items-center gap-2 font-bold text-lg">
+                            <Phone className="w-5 h-5 text-primary" />
+                            +7 (923) 777-26-55
+                        </a>
+                        <button
+                            onClick={() => {
+                                setIsModalOpen(true);
+                                setIsMobileMenuOpen(false);
+                            }}
+                            className="bg-primary text-primary-foreground px-6 py-3 rounded-md hover:bg-primary/90 transition-colors text-sm font-bold uppercase tracking-wider shadow-md w-full"
+                        >
+                            Заказать звонок
+                        </button>
+                    </div>
+                </div>
+            )}
 
             <CallbackModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
         </>

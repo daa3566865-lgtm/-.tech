@@ -15,7 +15,7 @@ export default async function Footer() {
                     {/* Brand & Contacts */}
                     <div className="space-y-6">
                         <Link href="/" className="text-2xl font-black uppercase tracking-widest text-primary block">
-                            {settings.siteName || "PROSIP"}
+                            {settings.siteName || "СВЕТЛЫЙ"}
                         </Link>
                         <div className="space-y-4 text-muted-foreground text-sm">
                             <div className="flex items-start gap-3">
@@ -25,16 +25,17 @@ export default async function Footer() {
                                     <p>Ежедневно 9:00 - 21:00</p>
                                 </div>
                             </div>
-                            <div className="flex items-start gap-3">
-                                <MapPin className="w-5 h-5 text-primary shrink-0" />
-                                <p>{settings.address}</p>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <Mail className="w-5 h-5 text-primary shrink-0" />
-                                <a href={`mailto:${settings.email}`} className="hover:text-primary transition-colors">{settings.email}</a>
-                            </div>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <MapPin className="w-5 h-5 text-primary shrink-0" />
+                            <p>г. Новосибирск, село Ленинское, улица Пятая Благодатная, 69</p>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <Mail className="w-5 h-5 text-primary shrink-0" />
+                            <a href={`mailto:${settings.email}`} className="hover:text-primary transition-colors">{settings.email}</a>
                         </div>
                     </div>
+
 
                     {/* Navigation */}
                     <div>
@@ -55,7 +56,6 @@ export default async function Footer() {
                         <h3 className="font-bold mb-6 text-lg">Информация</h3>
                         <ul className="space-y-4 text-muted-foreground">
                             <li><Link href="/promotions" className="hover:text-primary transition-colors">Акции</Link></li>
-                            <li><Link href="/technologies" className="hover:text-primary transition-colors">Вопрос-ответ</Link></li>
                         </ul>
                     </div>
 
@@ -83,9 +83,9 @@ export default async function Footer() {
                 </div>
 
                 <div className="border-t pt-8 text-center text-muted-foreground text-sm">
-                    <p>&copy; {currentYear} {settings.siteName}. Все права защищены.</p>
+                    <p>&copy; 2026 Светлый. Все права защищены.</p>
                 </div>
             </div>
-        </footer>
+        </footer >
     );
 }

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: prosip-site
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      # Persist the data directory so changes in Admin Panel are saved
+      - ./src/data:/app/src/data
+    environment:
+      - NODE_ENV=production

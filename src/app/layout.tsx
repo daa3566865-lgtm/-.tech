@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Modern Real Estate Catalog",
-  description: "A customizable real estate catalog clone",
+  title: "Светлый",
+  description: "Завод домов СИП - Дома нового поколения",
 };
 
 export default function RootLayout({
