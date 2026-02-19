@@ -12,3 +12,4 @@ services:
       - ./src/data:/app/src/data
     environment:
       - NODE_ENV=production
+      - ADMIN_PASSWORD=change_this_password # CHANGE THIS!

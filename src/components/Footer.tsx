@@ -28,7 +28,7 @@ export default async function Footer() {
                         </div>
                         <div className="flex items-start gap-3">
                             <MapPin className="w-5 h-5 text-primary shrink-0" />
-                            <p>г. Новосибирск, село Ленинское, улица Пятая Благодатная, 69</p>
+                            <p>г. Новосибирск, село Ленинское, улица 5-я Благодатная, 69</p>
                         </div>
                         <div className="flex items-start gap-3">
                             <Mail className="w-5 h-5 text-primary shrink-0" />
